@@ -1,0 +1,5 @@
+OpenSRAT is expected to become a general-purpose application pairing
+Relational Database reporting and Email sending to provide an alert
+system for installations that lack such a feature.
+
+SRAT, Oddly enough, stands for "SQL Report Alert Tool"
