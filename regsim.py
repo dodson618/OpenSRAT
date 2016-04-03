@@ -4,7 +4,7 @@
 import psycopg2, time, datetime, random
 
 #Setup DB Connection
-conn = psycopg2.connect(database="test_database",user="andie",host="localhost",password="h3lly34h")
+conn = psycopg2.connect(database=db,user=dbuser,host=dbhost,password=dbpass")
 cursor = conn.cursor()
 
 

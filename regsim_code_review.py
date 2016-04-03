@@ -3,10 +3,10 @@
 #IMPORT STUFF
 import psycopg2, time, datetime, random
 
-DATABASE = 'test_database'
-USER     = 'andie'
-HOST     = 'localhost'
-PASSWORD = 'h3lly34h'
+DATABASE = 'database'
+USER     = 'user'
+HOST     = 'host'
+PASSWORD = 'password'
 
 def initialize_connection(db, usr, hst, pswd):
     #Setup DB Connection
@@ -60,7 +60,7 @@ def main():
         T0 = datetime.datetime.now()
         while datetime.datetime.now() < T0 + dT:
             continue
-        
+
     conn.close()
 
 if __name__ == '__main__':
